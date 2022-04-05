@@ -8,18 +8,18 @@ This Repository hosts of two Websites:
 
 # Initial Set-up
 
-- Clone Git Repository : 'https://github.com/Soda-Digital/Tamex.git'
+Clone Git Repository : `https://github.com/Soda-Digital/Tamex.git`
 
 
 # [Tamex Website](https://tamex.com.au)
 
 ## Dependencies
 
-	* Version 
+* Version 
 
-		- [.NET Framework 3.1 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
+	[.NET Framework 3.1 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
 
-		- [node.js 16.x LTS](https://nodejs.dev/download)
+	[node.js 16.x LTS](https://nodejs.dev/download)
 
 ## Installation 
 
@@ -40,7 +40,6 @@ This Repository hosts of two Websites:
 
 ## Dependencies
 
-	
 	* Version
 	
 		- [.NET Framework 3.1 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
