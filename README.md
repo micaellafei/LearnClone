@@ -6,14 +6,14 @@ This Repository hosts of two Websites:
 
 
 
-# Initial Set-up
+## Initial Set-up
 
 Clone Git Repository : `https://github.com/Soda-Digital/Tamex.git`
 
 
-# [Tamex Website](https://tamex.com.au)
+## [Tamex Website](https://tamex.com.au)
 
-## Dependencies
+### Dependencies
 
 * Version 
 
@@ -21,24 +21,24 @@ Clone Git Repository : `https://github.com/Soda-Digital/Tamex.git`
 
 	[node.js 16.x LTS](https://nodejs.dev/download)
 
-## Installation 
+### Installation 
 
-	* Building the application :
+* Building the application :
 	'''
 		npm install
 		npm run webpack
 		dotnet build
 	'''
 		
-	* Running the Application :
+* Running the Application :
 	'''
 		dotnet dev-certs https --trust
 		dotnet run
 	'''
 
-# [Tamex Portal](https://tamex.com.au)
+## [Tamex Portal](https://tamex.com.au)
 
-## Dependencies
+### Dependencies
 
 	* Version
 	
@@ -56,22 +56,22 @@ Clone Git Repository : `https://github.com/Soda-Digital/Tamex.git`
 		 
 			- [MacOS Platform](https://www.quackit.com/sql_server/mac/install_sql_server_on_a_mac.cfm#:~:text=Microsoft%20has%20made%20SQL%20Server%20available%20for%20macOS,on%20a%20Mac%20prior%20to%20SQL%20Server%202017%29.)
 
-	* Secrets Management
+* Secrets Management
 	
-	Refer to 'Tamex Auth0 Client Secret' entry in 1Password 
+Refer to 'Tamex Auth0 Client Secret' entry in 1Password 
 	
-		**Important Note :**
+ **Important Note :**
 		
-## Installation
+### Installation
 
-	* Building the Application :
+* Building the Application :
 	'''
 	npm install
 	npm run webpack
 	dotnet build
 	'''
 	
-	* Running the Application
+* Running the Application
 	'''
 	dotnet dev-certs https --trust
 	dotnet 
