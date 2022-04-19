@@ -1,12 +1,11 @@
-Project Onboarding Checklist : 
+## Project Onboarding Checklist : 
 
 - [ ] O365
-- [ ] One Password
+- [ ] 1Password
 - [ ] Github
 - [ ] Shortcut
 - [ ] Timely
 
-This Repository hosts of two Websites:
 
 
 # Initial Set-up
@@ -58,26 +57,27 @@ This Repository hosts of two Websites:
 
 * Credentials
 
-<details><summary> Org Admin </summary>
+	<details><summary> Org Admin </summary>
   
-  <p>
+ 	 <p> 
+	  
+  	 	Username :
+  		Password : 
     
-    Username : 
-    Password : 
+   
+	 > Used to access staging and this is the default account  
+ 	 </p>
+	</details>
+  
+	<details><summary> Full Admin </summary>
+  	<p>
     
-    > Used to access staging and this is the default account  
-  </p></details>
-  
-  <details><summary> Full Admin </summary>
-  
- <p>
-   
-   Username : 
-   Password : 
-   
-   > sample account description
-  </p>
-  </details>
+		Username : 
+		Password : 
+		
+	> sample account description
+  	</p>
+	</details>
 		
 ## Installation
 
