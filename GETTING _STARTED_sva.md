@@ -1,18 +1,17 @@
-## Project Onboarding Checklist : 
+## Project Onboarding Checklist 
 
 - [ ] O365
 - [ ] 1Password
-- [ ] Github
+- [ ] Github Repository
 - [ ] Shortcut
 - [ ] Timely
 
 
+# Social Ventures Australia
 
-# Initial Set-up
+## Initial Set-up
 
 - Clone Git Repository : `https://github.com/Soda-Digital/Sva-Review.git`
-
-# Social Ventures Australia
 
 ## Dependencies
 
@@ -61,21 +60,21 @@
   
  	 <p> 
 	  
-  	 	Username :
-  		Password : 
+  	 	Username : orgadmin@svareview.com.au
+  		Password : Admin!@1
     
    
-	 > Used to access staging and this is the default account  
+	 > Default account and used to access staging environment
  	 </p>
 	</details>
   
 	<details><summary> Full Admin </summary>
   	<p>
     
-		Username : 
-		Password : 
+		Username : review@socialventures.com.au
+		Password : otw^pkkJ%hpRb7*v
 		
-	> sample account description
+	> Root account and with full privilege/access to the local environment
   	</p>
 	</details>
 		
