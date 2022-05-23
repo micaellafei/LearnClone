@@ -23,6 +23,8 @@ This Repository hosts of two Websites:
 
 ## Installation 
 
+- Open a terminal and navigate to `<Tamex Installation Directory>\src\Tamex.Website`
+
 ***Building the application :***
 ```
 npm install
@@ -88,6 +90,8 @@ dotnet run
 	> Do not expose Client Secret
 		
 ## Installation
+
+- Open a terminal and navigate to `<Tamex Installation Directory>\src\Tamex`
 
 ***Building the Application :***
 ```
