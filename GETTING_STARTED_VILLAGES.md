@@ -10,7 +10,7 @@
 # Villages Directory Set-up Guide
 
 ## Dependencies
-
+	
 * Version
 	
 	- [.NET Framework 6.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.300-windows-x64-installer)
@@ -61,18 +61,25 @@
 		> Make sure to change **Target Database** name from `villages-directory` to **Villages.Directory** 
 
 ## Building and Running the Application
-- 
+- Refer to each sites for detailed steps 
 
-#### Directory Admin
-1. 
-2. Launch Windows Terminal and navigate to `<RepoLocation>\villages-directory\Directory.Admin` folder
+#### Directory.Admin
 
+- Secrets Management
+	- Go to <RepoLocation>\villages-directory\Directory.Admin\ and update `appsettings.Development.json`
+	- Use notes found in **1Password** under **(Dev) Villages Directory Admin Auth0**
+	
+- Setting up Directory Admin Site
+	
+1. Launch Windows Terminal and navigate to `<RepoLocation>\villages-directory\Directory.Admin` folder
 2. Run the following commands :
   ```
-  npm install
-  
+ npm install
+ npm run dev
   ```
-3. **Open** browser and navigate to https://localhost:50551/Identity/Account/Login
-    > This should display a login page along with the default Admin credentials
+3. **Open** the **"Concierge.sln”** file in the root directory using either Visual Studio or VS Code.
+4. **Build** the solution
 
-#### Directory API
+	
+#### Directory.API
+#### Concierge.Web
