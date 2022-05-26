@@ -32,7 +32,9 @@
 2.  Pull up a terminal and navigate to the root directory of the Villages-Directory repository
 3.  Run `docker compose up` 
     > This may take a few minutes, please wait 
-    
+4.  Open **Azure Data Studio** 
+5.  ![image](https://user-images.githubusercontent.com/100733950/170425995-65ab7eb2-5187-4ed6-808f-5366a182eb8b.png)
+
 
 
 ## Building and Running the Application
@@ -43,7 +45,7 @@
 2. Run the following commands :
   ```
   npm install
-  dotnet run watch
+  
   ```
 3. **Open** browser and navigate to https://localhost:50551/Identity/Account/Login
     > This should display a login page along with the default Admin credentials
