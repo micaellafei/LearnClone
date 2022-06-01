@@ -7,7 +7,7 @@
 - [ ] Timely
 
 
-# Jennchem
+# Jennchem Setup Guide
 
 ## Dependencies
 
