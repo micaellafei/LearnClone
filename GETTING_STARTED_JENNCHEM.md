@@ -52,67 +52,11 @@
 
 * Credentials
 
-	<details><summary> DEV </summary>
-  
- 	 <p> 
-	  
-  	 	Username : dev@example.com
-  		Password : Admin!@1
-    
-   
-	 > Contains all roles
- 	 </p>
-	</details>
-  
-	<details><summary> Admin </summary>
-  	<p>
-    
-		Username : admin@bravure.com.au
-		Password : Admin!@1
-		
-  	</p>
-	</details>
-  
-  	<details><summary> Admin with 2FA </summary>
-  	<p>
-    
-		Username : admin2FA@bravure.com.au
-		Password : Admin!@1
-		
-    > Admin Account with Two Factor Authentication enabled.
-  	</p>
-	</details>
-  
-  	<details><summary> Bravure Account </summary>
-  	<p>
-    
-		Username : bravure@bravure.com.au
-		Password : Admin!@1
-		
-  	</p>
-	</details>
-  
-  	<details><summary> Buyer Account </summary>
-  	<p>
-    
-		Username : buyer@example.com
-		Password : Admin!@1
-		
-  	</p>
-	</details>
-  
-  	<details><summary> Seller Account </summary>
-  	<p>
-    
-		Username : seller@example.com
-		Password : Admin!@1
-		
-  	</p>
-	</details>
+	
 		
 ## Initial Set-up
 
-1.  Clone Git Repository : `https://github.com/Soda-Digital/Bravure.git`
+1.  Clone Git Repository : `https://github.com/Soda-Digital/jennchem.git`
 2.  **Open** the “Jennchem.sln” file in the root directory using either Visual Studio or VS Code
 3.  **Build** the solution
 
@@ -143,6 +87,20 @@
             //);	
 ```
 
+***Building  and Running Backend***
+
+1. Launch Windows Terminal and navigate to the root of the Backoffice2 folder
+    * \\<RepoLocation\>\\src\\Jennchem.API\\
+2. Run the command:
+```
+dotnet run watch
+```
+3. Open a browser and navigate to https://localhost:5000/
+	> A json response with HTTP Status  404 indicates the backend is running.
+	> ![image](https://user-images.githubusercontent.com/100733950/171339131-a48ca222-4d57-4195-8498-35c93d9b540c.png)
+
+
+
 ***Building and Running Frontend :***
 
 1. Launch Windows Terminal and navigate to the root of the Backoffice2 folder
@@ -154,49 +112,10 @@ npm run build
 nom run dev
 ```
 3. After a brief delay, the terminal window should display “&#9745; service worker”
-4. **Open** a browser and navigate to <https://localhost:3000/>
+4. **Open** a browser and navigate to https://localhost:5000/account/login
     * This should display a login page
     * **Click** the <superadmin@superadmin.com> button under the login box
+    * On the next webpage, **Select** `BackOffice` 
     
   Note: Check if WSL run on correct instance (eg. Ubuntu)
 
-
-
-
-# Soda Digital Jennchem Setup Guide 
-
-*Note: Links and versions accurate at the time of writing 18/11/2020*
-
-*See individual readme documents for more detail*
-
-## Clone & Setup the Jennchem repository
-
-1. **Clone** <https://github.com/Soda-Digital/jennchem.git> using your preferred GIT client
-
-2. **Open** the “Jennchem.sln” file in the root directory using either Visual Studio or VS Code
-
-3. **Build** the solution
-
-## Setup Certificates and NodeJS Packages
-
-
-
-## Running the Backend (Jennchem.API)
-
-1. **Open** the Solution in Visual Studio or VSCode and start without debugging (Ctrl-F5).
-    * This should bring up a terminal window ending with the message “Application Started”
-2. **Open** a browser and navigate to <https://localhost:5000/>
-    * A json response with status 404 indicates the backend is running.
-
-## Running the Frontend (Jennchem.Backoffice2)
-
-1. Open Windows Terminal and navigate to the root of the Backoffice2 folder
-    * \\<RepoLocation\>\\src\\Jennchem.Backoffice2\\
-2. **Run** the command “npm run build”
-3. **Run** the command “npm run dev”
-4. After a brief delay, the terminal window should display “&#9745; service worker”
-5. **Open** a browser and navigate to <https://localhost:3000/>
-    * This should display a login page
-    * **Click** the <superadmin@superadmin.com> button under the login box
-    
-  Note: Check if WSL run on correct instance (eg. Ubuntu)
