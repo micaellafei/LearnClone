@@ -117,5 +117,5 @@ nom run dev
     * **Click** the <superadmin@superadmin.com> button under the login box
     * On the next webpage, **Select** `BackOffice` 
     
-  Note: Check if WSL run on correct instance (eg. Ubuntu)
+ 	 > Note: Check if WSL run on correct instance (eg. Ubuntu)
 
