@@ -7,7 +7,7 @@
 - [ ] Timely
 
 
-# Sterland Trade Portal
+# Sterland Setup Guide
 
 ## Initial Set-up
 
