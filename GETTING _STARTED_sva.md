@@ -7,7 +7,7 @@
 - [ ] Timely
 
 
-# Social Ventures Australia
+# Social Ventures Australia Setup Guide
 
 ## Initial Set-up
 
