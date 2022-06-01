@@ -7,7 +7,7 @@
 - [ ] Timely
 
 
-# Dispense Assist
+# Dispense Assist Setup Guide
 
 ## Dependencies
 
